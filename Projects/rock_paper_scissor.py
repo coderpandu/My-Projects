@@ -27,9 +27,7 @@ while running:
     elif player == "scissors" and computer == "paper":
         print("You win!")
     else:
-        print("You Loose!!")
-    
-    your_win += your_win
+        print("You Loose!!")    
 
     if not input("Play again? (y/n): ").lower() == "y":
         running = False
